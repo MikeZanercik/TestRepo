@@ -28,7 +28,7 @@ $(".btn-primary").on("click", function () {
     var APIKey = "AIzaSyDmFlD6zsHY-21J4zaP8YC9M5pLgMkrXxU";
     var queryURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=" + keyWord + "&key=" + APIKey;
 
-    videoEmbeddable
+    // videoEmbeddable
 
 
     $.ajax({
